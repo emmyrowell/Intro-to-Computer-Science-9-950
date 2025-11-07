@@ -1,0 +1,6 @@
+celsius = input("Enter temperature in Celsius: ")
+print("The type of 'celsius' before casting is:", type(celsius))
+celsius = float(celsius)
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+print("The type of 'fahrenheit' variable is:", type(fahrenheit))
