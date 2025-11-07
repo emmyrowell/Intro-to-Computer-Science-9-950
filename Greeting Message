@@ -1,0 +1,4 @@
+name = input("What is your name? ")
+greeting = "Hello, " + name + "! Welcome to Python."
+print(greeting)
+print("The data type of 'greeting' is:", type(greeting))
